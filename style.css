@@ -288,7 +288,6 @@ nav {
 }
 
 
-
 /* Header: Botões Gerais */
 .buttons a {
     font-size: 14px;
@@ -555,7 +554,6 @@ footer .copyright {
 }
 
 
-
 @media only screen and (max-width: 991px) {
     .menu {
         position: absolute;
@@ -599,6 +597,40 @@ footer .copyright {
     .expand > a {
         background-color: var(--lighter-color);
     }
+    .hero .grid__text {
+        padding: 2em 0 0 0;
+    }
+    .features .grid {
+        padding:  2em 0 0 ;
+    }
+    .testimonials .grid {
+        padding: 3em 0 0 0;
+        flex-direction: column;
+    }
+    .testimonials .grid__text p {
+        font-size: 8px;
+    }
+    .testimonials .grid__text .half p > sup {
+        position: absolute;
+        top: 10;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    } 
+    .testimonials .grid .half .pic {
+        max-width: 100px;
+        margin: auto;
+    }
+    .engage .grid__text {
+        padding: 2em 0 0;
+    }
+    .cta .grid__text p {
+        color: var(--light-color);
+    }
+    .cta .grid {
+        padding: 2em 0 2em;
+    }
+
 }
 
 

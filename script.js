@@ -16,7 +16,7 @@ const submenu = document.querySelectorAll('.has-child')
 
 
 // animação dos ítens ao fazer o scroll
-/*const io = new IntersectionObserver(entries => {
+const io = new IntersectionObserver(entries => {
     entries.forEach(entry => {
         if (entry.intersectionRatio > 0) {
             entry.target.classList.add('this')
@@ -26,4 +26,4 @@ const submenu = document.querySelectorAll('.has-child')
 const boxEllist = document.querySelectorAll('.animate');
 boxEllist.forEach((el) => {
     io.observe(el)
-})*/
+})
