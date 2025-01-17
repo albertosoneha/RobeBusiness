@@ -24,7 +24,3 @@ const io = new IntersectionObserver(entries => {
         }
     });
 })
-const boxEllist = document.querySelectorAll('.animate');
-boxEllist.forEach((el) => {
-    io.observe(el)
-});
