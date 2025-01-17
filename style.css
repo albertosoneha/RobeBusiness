@@ -7,7 +7,7 @@
     --lighter-color: #f7f7ff;
     --dark-color: #2f3542;
     --secondary-dark-color: #18161e;
-
+    
     --font-smaller: 12px;
 }
 * {
@@ -203,6 +203,7 @@ nav {
     font-weight: 600;
     padding-left: 1em;
     -webkit-transition: color .3s;
+    transition: color .3s;
 }
 .mega .categories li a:hover {
     color: var(--main-color);

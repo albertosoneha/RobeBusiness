@@ -1,6 +1,6 @@
-const button = document.querySelector('.trigger'),
+    const button = document.querySelector('.trigger'),
     addClass = document.querySelector('nav');
-button.addEventListener('click', function() {
+    button.addEventListener('click', function() {
     addClass.classList.toggle('show')
 })
 
@@ -15,7 +15,8 @@ const submenu = document.querySelectorAll('.has-child')
     }
 
 
-// animação dos ítens ao fazer o scroll
+
+// animação dos itens ao fazer o scroll
 const io = new IntersectionObserver(entries => {
     entries.forEach(entry => {
         if (entry.intersectionRatio > 0) {
@@ -26,4 +27,4 @@ const io = new IntersectionObserver(entries => {
 const boxEllist = document.querySelectorAll('.animate');
 boxEllist.forEach((el) => {
     io.observe(el)
-})
+});
