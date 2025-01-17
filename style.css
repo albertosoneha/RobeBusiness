@@ -601,35 +601,51 @@ footer .copyright {
     .hero .grid__text {
         padding: 2em 0 0 0;
     }
+    .hero .grid .buttons .light {
+        font-size: 12px;
+    }
     .features .grid {
         padding:  2em 0 0 ;
+    }
+    .engage .grid__text {
+        padding: 2em 0 0;
+    }
+    .engage .grid .buttons .dark {
+        font-size: 12px;
     }
     .testimonials .grid {
         padding: 3em 0 0 0;
         flex-direction: column;
     }
-    .testimonials .grid__text p {
-        font-size: 8px;
+    .testimonials .grid__text {
+        font-size: 10px;
     }
-    .testimonials .grid__text .half p > sup {
+    .testimonials .grid .buttons .light {
+        font-size: 12px;
+    }
+    .testimonials .grid__text .item p > sup {
         position: absolute;
         top: 10;
         left: 0;
         right: 0;
-        bottom: 0;
+        bottom: 0;  
     } 
-    .testimonials .grid .half .pic {
+    .testimonials .grid .pic {
         max-width: 100px;
         margin: auto;
     }
-    .engage .grid__text {
-        padding: 2em 0 0;
+    .cta .grid {
+        padding: 1em 0 2em;
     }
     .cta .grid__text p {
         color: var(--light-color);
     }
-    .cta .grid {
-        padding: 2em 0 2em;
+    .cta .grid__text h2 {
+        line-height: normal;
+        font-size: 2em;
+    }
+    .cta .grid .buttons :where(.light, .dark) {
+        font-size: 12px;
     }
 
 }
