@@ -558,10 +558,10 @@ footer .copyright {
 @media only screen and (max-width: 991px) {
     .menu {
         position: absolute;
-        top: 85px;
+        top: 81px;
         left: 0;
         right: 0;
-        height: calc(100%- 81px);
+        height: calc(100vh - 81px);
         padding: 1em 0 2em;
         background-color: var(--dark-color);
         display: none;
@@ -584,6 +584,7 @@ footer .copyright {
     }
     nav.show .menu {
         display: flex;
+        flex-direction: column;
     }
     .mega {
         height: auto;
