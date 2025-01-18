@@ -235,7 +235,7 @@ nav {
 .trigger .line {
     width: 30px;
     height: 2px;
-    background-color: var(--main-color);
+    background-color: var(--lighter-color);
     display: block;
     margin: 4px 0;
     z-index: 2;
