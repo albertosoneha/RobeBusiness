@@ -125,10 +125,10 @@ nav {
     padding-right: 2em;
 }
 .mega .highlight {
-    font-size: var(--font-smaller);
     color: #54a0ff;
     display: block;
     margin-bottom: 1em;
+    font-size: var(--font-smaller);
 }
 .mega .list li {
     position: relative;
@@ -556,17 +556,20 @@ footer .copyright {
 
 
 @media only screen and (max-width: 991px) {
-    .menu {
+    nav .menu {
         position: absolute;
-        top: 81px;
+        top: 80px;
         left: 0;
         right: 0;
-        height: calc(100vh - 81px);
+        height: calc(100vh - 80px);
         padding: 1em 0 2em;
         background-color: var(--dark-color);
         display: none;
     }
-    .menu > ul > li > a {
+    nav .menu ul  {
+        background-color: var(--dark-color);
+    }
+    nav .menu > ul > li > a {
         font-size: 1.25em;
         padding: 0 1.5em;
         justify-content: space-between;
@@ -577,9 +580,10 @@ footer .copyright {
     .menu .mega {
         line-height: 40px;
     }
-    .menu ul.account {
+    nav .menu ul.account {
         align-items: flex-end;
-        margin-top: auto;
+        margin-top: -0.2em;
+        padding-top: 2em;
         padding-bottom: 4em;
     }
     nav.show .menu {
