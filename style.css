@@ -252,7 +252,6 @@ nav {
     height: 100%;
     border-radius: 50%;
     z-index: 0;
-    background-color: var(--main-color);
     -webkit-transform: scale(0);
     transform: scale(0);
     -webkit-transition: transform .3s;
@@ -555,6 +554,12 @@ footer .copyright {
 }
 
 
+@media only screen and (max-width: 480px) {
+    nav .menu {
+        width: 100%;
+    }
+}
+
 @media only screen and (max-width: 991px) {
     nav .menu {
         position: absolute;
@@ -570,8 +575,8 @@ footer .copyright {
         background-color: var(--dark-color);
     }
     nav .menu > ul > li > a {
-        font-size: 1.25em;
-        padding: 0 1.5em;
+        font-size: 1em;
+        padding: 0 2em;
         justify-content: space-between;
     }
     .menu .mega :is(.item .excerpt, .devide, .categories > span) {
