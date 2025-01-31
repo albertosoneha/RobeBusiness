@@ -78,12 +78,12 @@ nav {
 .menu > ul > li > a:hover {
     color: var(--main-color);
 }
-.mega li.has-child > a::after {
+.menu li.has-child > a::after {
     content: '';
     width: 20px;
     height: 20px;
     margin: 0.5em 0 0 1em;
-    /*background-image: url(aqui vai o ri-arrow-down-s-line com a url em svg);*/
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='16' height='16' fill='rgba(255,255,255,1)'%3E%3Cpath d='M11.9999 13.1714L16.9497 8.22168L18.3639 9.63589L11.9999 15.9999L5.63599 9.63589L7.0502 8.22168L11.9999 13.1714Z'%3E%3C/path%3E%3C/svg%3E");
 }
 .menu ul.account li:last-child a::before {
     content: '';
