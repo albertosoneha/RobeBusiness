@@ -304,7 +304,7 @@ nav {
 }
 .buttons a.light {
     color: var(--lighter-color);
-    background-color: var(--secondary-color);
+    background-color: var(--main-color);
     border-bottom-left-radius: 0;
     box-shadow: rgb(83 82 237) 0px 12px 40px -12px;
     
@@ -314,7 +314,7 @@ nav {
 }
 .buttons a.dark {
     border-top-right-radius: 0;
-    border: 2px solid var(--secondary-color);
+    border: 2px solid var(--main-color);
 }
 .buttons a.dark:hover {
     color: var(--main-color);
