@@ -4,6 +4,7 @@
     addClass.classList.toggle('show')
 })
 
+
 const submenu = document.querySelectorAll('.has-child')
     submenu.forEach((menu) => menu.addEventListener('click', toggle));
 
