@@ -1,3 +1,6 @@
+# Permitir que todos os bots acessem o site
 User-agent: *
 Disallow:
+
+# Localização do sitemap
 Sitemap: https://robebusiness.vercel.app/sitemap.xml
