@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Página inicial -->
+    <url>
+        <loc>https://robebusiness.vercel.app/</loc>
+        <lastmod>2025-03-20</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Página de serviços -->
+    <url>
+        <loc>https://robebusiness.vercel.app/servicos</loc>
+        <lastmod>2025-03-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Página sobre a empresa -->
+    <url>
+        <loc>https://robebusiness.vercel.app/sobre</loc>
+        <lastmod>2025-03-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Página de contato -->
+    <url>
+        <loc>https://robebusiness.vercel.app/contato</loc>
+        <lastmod>2025-03-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+</urlset>
